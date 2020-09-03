@@ -1,0 +1,550 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L kicad_symbols:74HC597 U1
+U 1 1 5F504068
+P 5300 3400
+F 0 "U1" H 5450 4100 50  0000 C CNN
+F 1 "74HC597" H 5550 4000 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5300 3400 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd74hc597.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1599084771761" H 5300 3400 50  0001 C CNN
+	1    5300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5F50508E
+P 6350 3000
+F 0 "R1" V 6143 3000 50  0000 C CNN
+F 1 "R" V 6234 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6280 3000 50  0001 C CNN
+F 3 "~" H 6350 3000 50  0001 C CNN
+	1    6350 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5F507454
+P 6650 3100
+F 0 "R2" V 6443 3100 50  0000 C CNN
+F 1 "R" V 6534 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6580 3100 50  0001 C CNN
+F 3 "~" H 6650 3100 50  0001 C CNN
+	1    6650 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5F50A228
+P 6950 3200
+F 0 "R3" V 6743 3200 50  0000 C CNN
+F 1 "R" V 6834 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6880 3200 50  0001 C CNN
+F 3 "~" H 6950 3200 50  0001 C CNN
+	1    6950 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5F50C277
+P 7250 3300
+F 0 "R4" V 7043 3300 50  0000 C CNN
+F 1 "R" V 7134 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7180 3300 50  0001 C CNN
+F 3 "~" H 7250 3300 50  0001 C CNN
+	1    7250 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 3200 6350 3200
+Wire Wire Line
+	5700 3300 6450 3300
+$Comp
+L Device:R R8
+U 1 1 5F50DEF5
+P 8450 3700
+F 0 "R8" V 8243 3700 50  0000 C CNN
+F 1 "R" V 8334 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8380 3700 50  0001 C CNN
+F 3 "~" H 8450 3700 50  0001 C CNN
+	1    8450 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5F50BA65
+P 8150 3600
+F 0 "R7" V 7943 3600 50  0000 C CNN
+F 1 "R" V 8034 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8080 3600 50  0001 C CNN
+F 3 "~" H 8150 3600 50  0001 C CNN
+	1    8150 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5F50B0C4
+P 7850 3500
+F 0 "R6" V 7643 3500 50  0000 C CNN
+F 1 "R" V 7734 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7780 3500 50  0001 C CNN
+F 3 "~" H 7850 3500 50  0001 C CNN
+	1    7850 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5F50A9C3
+P 7550 3400
+F 0 "R5" V 7757 3400 50  0000 C CNN
+F 1 "R" V 7666 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7480 3400 50  0001 C CNN
+F 3 "~" H 7550 3400 50  0001 C CNN
+	1    7550 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 3000 6500 2750
+Wire Wire Line
+	6500 2750 6800 2750
+Wire Wire Line
+	6800 2750 6800 3100
+Wire Wire Line
+	7100 3200 7100 2750
+Wire Wire Line
+	7100 2750 6800 2750
+Connection ~ 6800 2750
+Wire Wire Line
+	7400 3300 7400 2750
+Wire Wire Line
+	7400 2750 7100 2750
+Connection ~ 7100 2750
+Wire Wire Line
+	7700 2750 7400 2750
+Connection ~ 7400 2750
+Wire Wire Line
+	8000 3500 8000 2750
+Wire Wire Line
+	8000 2750 7700 2750
+Connection ~ 7700 2750
+Wire Wire Line
+	8300 3600 8300 2750
+Wire Wire Line
+	8300 2750 8000 2750
+Connection ~ 8000 2750
+Wire Wire Line
+	8600 3700 8600 2750
+Wire Wire Line
+	8600 2750 8300 2750
+Connection ~ 8300 2750
+Wire Wire Line
+	7400 3400 6550 3400
+Wire Wire Line
+	5700 3500 6650 3500
+Wire Wire Line
+	8300 3700 6850 3700
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 5F5281D5
+P 7350 2500
+F 0 "JP2" H 7350 2275 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 7850 2400 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7350 2500 50  0001 C CNN
+F 3 "~" H 7350 2500 50  0001 C CNN
+	1    7350 2500
+	1    0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 5F52F8C8
+P 6850 2500
+F 0 "JP1" H 6850 2275 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 7350 2400 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 6850 2500 50  0001 C CNN
+F 3 "~" H 6850 2500 50  0001 C CNN
+	1    6850 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7100 2750 7100 2500
+Wire Wire Line
+	7100 2500 7000 2500
+Wire Wire Line
+	7100 2500 7200 2500
+Connection ~ 7100 2500
+Wire Wire Line
+	7500 2500 8700 2500
+Wire Wire Line
+	8700 2500 8700 4150
+Wire Wire Line
+	5300 4150 5300 4100
+Wire Wire Line
+	6700 2500 5300 2500
+Wire Wire Line
+	5300 2500 5300 2800
+$Comp
+L Connector_Generic:Conn_01x08 J3
+U 1 1 5F539F92
+P 6450 4500
+F 0 "J3" V 6322 4012 50  0000 R CNN
+F 1 "Conn_01x08" V 6413 4012 50  0000 R CNN
+F 2 "74HC597-Breakout:Conn_Pads_8" H 6450 4500 50  0001 C CNN
+F 3 "~" H 6450 4500 50  0001 C CNN
+	1    6450 4500
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5700 3000 6150 3000
+Wire Wire Line
+	5700 3100 6250 3100
+Connection ~ 6150 3000
+Wire Wire Line
+	6150 3000 6200 3000
+Connection ~ 6250 3100
+Wire Wire Line
+	6250 3100 6500 3100
+Connection ~ 6350 3200
+Wire Wire Line
+	6350 3200 6800 3200
+Connection ~ 6450 3300
+Wire Wire Line
+	6450 3300 7100 3300
+Connection ~ 6550 3400
+Wire Wire Line
+	6550 3400 5700 3400
+Connection ~ 6650 3500
+Wire Wire Line
+	6650 3500 7700 3500
+Wire Wire Line
+	5700 3600 6750 3600
+Connection ~ 6750 3600
+Wire Wire Line
+	6750 3600 8000 3600
+Connection ~ 6850 3700
+Wire Wire Line
+	6850 3700 5700 3700
+Wire Wire Line
+	3550 2500 5300 2500
+Connection ~ 5300 2500
+Connection ~ 5300 4150
+Wire Wire Line
+	5700 3900 5850 3900
+Wire Wire Line
+	4900 3000 4150 3000
+Wire Wire Line
+	4900 3300 3750 3300
+Wire Wire Line
+	4900 3200 3850 3200
+Wire Wire Line
+	3850 3200 3850 3950
+Wire Wire Line
+	4900 3500 3950 3500
+Wire Wire Line
+	3950 3500 3950 3900
+Wire Wire Line
+	4900 3600 4050 3600
+Wire Wire Line
+	4050 3600 4050 3850
+Wire Wire Line
+	3550 2500 3550 4050
+Wire Wire Line
+	3750 3300 3750 4000
+Wire Wire Line
+	3650 4150 4500 4150
+Wire Wire Line
+	4400 4050 3550 4050
+Connection ~ 3550 4050
+Connection ~ 4500 4150
+Wire Wire Line
+	4500 4150 5300 4150
+Wire Wire Line
+	4600 4000 3750 4000
+Connection ~ 3750 4000
+Connection ~ 3850 3950
+Wire Wire Line
+	4800 3900 3950 3900
+Wire Wire Line
+	4900 3850 4050 3850
+Connection ~ 4050 3850
+Wire Wire Line
+	5000 4300 5000 4250
+Wire Wire Line
+	5850 4250 5850 3900
+Text Notes 6350 5100 0    50   ~ 0
+INPUTS
+Wire Wire Line
+	6150 3000 6150 4250
+Wire Wire Line
+	6250 3100 6250 4250
+Wire Wire Line
+	8700 4150 5300 4150
+Wire Wire Line
+	6350 3200 6350 4250
+Wire Wire Line
+	6450 3300 6450 4250
+Wire Wire Line
+	6550 3400 6550 4250
+Wire Wire Line
+	6650 3500 6650 4250
+Wire Wire Line
+	7700 2750 7700 3400
+Wire Wire Line
+	4700 3950 3850 3950
+Wire Wire Line
+	6200 4700 6200 4250
+Wire Wire Line
+	6200 4250 6150 4250
+Connection ~ 6150 4250
+Wire Wire Line
+	6150 4250 6150 4300
+Wire Wire Line
+	6250 4250 6300 4250
+Wire Wire Line
+	6300 4250 6300 4700
+Connection ~ 6250 4250
+Wire Wire Line
+	6250 4250 6250 4300
+Wire Wire Line
+	6400 4700 6400 4250
+Wire Wire Line
+	6400 4250 6350 4250
+Connection ~ 6350 4250
+Wire Wire Line
+	6350 4250 6350 4300
+Wire Wire Line
+	6500 4700 6500 4250
+Wire Wire Line
+	6500 4250 6450 4250
+Connection ~ 6450 4250
+Wire Wire Line
+	6450 4250 6450 4300
+Wire Wire Line
+	6600 4700 6600 4250
+Wire Wire Line
+	6600 4250 6550 4250
+Connection ~ 6550 4250
+Wire Wire Line
+	6550 4250 6550 4300
+Wire Wire Line
+	6700 4700 6700 4250
+Wire Wire Line
+	6700 4250 6650 4250
+Connection ~ 6650 4250
+Wire Wire Line
+	6650 4250 6650 4300
+Connection ~ 3950 3900
+$Comp
+L Connector_Generic:Conn_01x07 J1
+U 1 1 5F55E1C2
+P 3850 4500
+F 0 "J1" V 3850 5000 50  0000 R CNN
+F 1 "Conn_01x07" V 3950 5350 50  0000 R CNN
+F 2 "74HC597-Breakout:Conn_Pads_7" H 3850 4500 50  0001 C CNN
+F 3 "~" H 3850 4500 50  0001 C CNN
+	1    3850 4500
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x07 J2
+U 1 1 5F567D51
+P 4700 4500
+F 0 "J2" V 4650 5000 50  0000 R CNN
+F 1 "Conn_01x07" V 4750 5350 50  0000 R CNN
+F 2 "74HC597-Breakout:Conn_Pads_7" H 4700 4500 50  0001 C CNN
+F 3 "~" H 4700 4500 50  0001 C CNN
+	1    4700 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 4250 5850 4250
+Wire Wire Line
+	5000 4250 5050 4250
+Connection ~ 5050 4250
+Wire Wire Line
+	5050 4700 5050 4250
+Wire Wire Line
+	4900 4250 4900 3850
+Wire Wire Line
+	4900 4300 4900 4250
+Connection ~ 4900 4250
+Wire Wire Line
+	4950 4250 4900 4250
+Wire Wire Line
+	4950 4700 4950 4250
+Wire Wire Line
+	4800 4250 4800 3900
+Wire Wire Line
+	4800 4300 4800 4250
+Connection ~ 4800 4250
+Wire Wire Line
+	4850 4250 4800 4250
+Wire Wire Line
+	4850 4700 4850 4250
+Wire Wire Line
+	4700 4250 4700 3950
+Wire Wire Line
+	4700 4300 4700 4250
+Connection ~ 4700 4250
+Wire Wire Line
+	4750 4250 4700 4250
+Wire Wire Line
+	4750 4700 4750 4250
+Wire Wire Line
+	4600 4250 4600 4000
+Wire Wire Line
+	4600 4300 4600 4250
+Connection ~ 4600 4250
+Wire Wire Line
+	4650 4250 4600 4250
+Wire Wire Line
+	4650 4700 4650 4250
+Wire Wire Line
+	4500 4250 4500 4150
+Wire Wire Line
+	4500 4300 4500 4250
+Connection ~ 4500 4250
+Wire Wire Line
+	4550 4250 4500 4250
+Wire Wire Line
+	4550 4700 4550 4250
+Wire Wire Line
+	4450 4250 4450 4700
+Wire Wire Line
+	4400 4250 4400 4050
+Wire Wire Line
+	4400 4300 4400 4250
+Connection ~ 4400 4250
+Wire Wire Line
+	4400 4250 4450 4250
+Wire Wire Line
+	3600 4700 3600 4250
+Wire Wire Line
+	3550 4250 3550 4300
+Wire Wire Line
+	3550 4050 3550 4250
+Connection ~ 3550 4250
+Wire Wire Line
+	3600 4250 3550 4250
+Wire Wire Line
+	3700 4700 3700 4250
+Wire Wire Line
+	3650 4250 3650 4300
+Wire Wire Line
+	3650 4150 3650 4250
+Connection ~ 3650 4250
+Wire Wire Line
+	3700 4250 3650 4250
+Wire Wire Line
+	3750 4250 3750 4300
+Wire Wire Line
+	3750 4000 3750 4250
+Connection ~ 3750 4250
+Wire Wire Line
+	3800 4250 3750 4250
+Wire Wire Line
+	3800 4700 3800 4250
+Wire Wire Line
+	3850 4250 3850 4300
+Wire Wire Line
+	3850 3950 3850 4250
+Connection ~ 3850 4250
+Wire Wire Line
+	3900 4250 3850 4250
+Wire Wire Line
+	3900 4700 3900 4250
+Wire Wire Line
+	3950 4250 3950 4300
+Wire Wire Line
+	3950 3900 3950 4250
+Connection ~ 3950 4250
+Wire Wire Line
+	4000 4250 3950 4250
+Wire Wire Line
+	4000 4700 4000 4250
+Wire Wire Line
+	4150 4250 4150 4300
+Wire Wire Line
+	4150 3000 4150 4250
+Connection ~ 4150 4250
+Wire Wire Line
+	4200 4250 4150 4250
+Wire Wire Line
+	4050 4250 4050 4300
+Wire Wire Line
+	4050 3850 4050 4250
+Connection ~ 4050 4250
+Wire Wire Line
+	4100 4250 4050 4250
+Wire Wire Line
+	4100 4700 4100 4250
+Wire Wire Line
+	4200 4700 4200 4250
+$Comp
+L Connector_Generic:Conn_01x08 J6
+U 1 1 5F60B547
+P 6600 4900
+F 0 "J6" V 6472 5280 50  0000 L CNN
+F 1 "Conn_01x08" V 6563 5280 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0871_1x08-1MP_P1.25mm_Horizontal" H 6600 4900 50  0001 C CNN
+F 3 "~" H 6600 4900 50  0001 C CNN
+	1    6600 4900
+	0    1    1    0   
+$EndComp
+Text Notes 3750 5100 0    50   ~ 0
+CHAIN IN
+Text Notes 4500 5100 0    50   ~ 0
+CHAIN OUT
+$Comp
+L Connector_Generic:Conn_01x07 J4
+U 1 1 5F5D6BC1
+P 3900 4900
+F 0 "J4" V 3900 5400 50  0000 R CNN
+F 1 "Conn_01x07" V 4000 5750 50  0000 R CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0771_1x07-1MP_P1.25mm_Horizontal" H 3900 4900 50  0001 C CNN
+F 3 "~" H 3900 4900 50  0001 C CNN
+	1    3900 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x07 J5
+U 1 1 5F5D5941
+P 4750 4900
+F 0 "J5" V 4650 4400 50  0000 R CNN
+F 1 "Conn_01x07" V 4750 4450 50  0000 R CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0771_1x07-1MP_P1.25mm_Horizontal" H 4750 4900 50  0001 C CNN
+F 3 "~" H 4750 4900 50  0001 C CNN
+	1    4750 4900
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6800 4700 6800 4250
+Wire Wire Line
+	6800 4250 6750 4250
+Wire Wire Line
+	6750 3600 6750 4250
+Wire Wire Line
+	6750 4250 6750 4300
+Connection ~ 6750 4250
+Wire Wire Line
+	6900 4700 6900 4250
+Wire Wire Line
+	6900 4250 6850 4250
+Wire Wire Line
+	6850 3700 6850 4250
+Wire Wire Line
+	6850 4250 6850 4300
+Connection ~ 6850 4250
+$EndSCHEMATC
