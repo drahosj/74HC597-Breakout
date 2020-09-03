@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L kicad_symbols:74HC597 U1
+L project:74HC597 U1
 U 1 1 5F504068
 P 5300 3400
 F 0 "U1" H 5450 4100 50  0000 C CNN

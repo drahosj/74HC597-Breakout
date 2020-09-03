@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 39)
+    (drawings 43)
     (tracks 307)
     (zones 0)
     (modules 17)
@@ -440,7 +440,7 @@
     (tags resistor)
     (path /5F50A9C3)
     (attr smd)
-    (fp_text reference R5 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference R5 (at 0 1.778) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value R (at 0 1.65) (layer F.Fab)
@@ -851,6 +851,10 @@
     )
   )
 
+  (gr_line (start 157.48 137.16) (end 157.48 93.345) (layer Edge.Cuts) (width 0.05) (tstamp 5F504A86))
+  (gr_line (start 125.73 137.16) (end 157.48 137.16) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 125.73 93.345) (end 125.73 137.16) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 157.48 93.345) (end 125.73 93.345) (layer Edge.Cuts) (width 0.05))
   (gr_text ~PL (at 136.398 99.314) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

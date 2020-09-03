@@ -527,7 +527,7 @@ F 1 "Conn_01x07" V 4750 4450 50  0000 R CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53261-0771_1x07-1MP_P1.25mm_Horizontal" H 4750 4900 50  0001 C CNN
 F 3 "~" H 4750 4900 50  0001 C CNN
 	1    4750 4900
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	6800 4700 6800 4250
